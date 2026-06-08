@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding-bottom: 3rem;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 5px;
+
+    width: 100%;
+    height: 1.8rem;
+}
+
+.container {
+    display: flex;
+    gap: 1rem;
+}
+
+.container-col {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: start;
+
+    width: 100%;
+}
+
+.botaoPrincipal {
+    color: white;
+    background-color: rgb(98, 191, 194);
+
+    border-radius: 8px;
+    border: none;
+
+    text-align: center;
+    font-size: large;
+
+    padding: 1rem;
+    margin: .4rem;
+    margin-bottom: 2rem;
+
+    min-width: 20%;
+    width: auto;
+}
+
+.botaoPrincipal:hover {
+    background-color: rgb(90, 213, 218);
+}
+
+.botaoSecundario {
+    color: white;
+    background-color: rgb(67, 135, 138);
+
+    border-radius: 3px;
+    border: none;
+
+    text-align: center;
+    font-size: medium;
+
+    padding: .2rem;
+    margin: .4rem;
+
+    min-width: 10%;
+    width: auto;
+}
+
+.botaoSecundario:hover {
+    background-color: rgb(73, 162, 167);;
+}
+
+#imagemPrincipal {
+    width: 100vw;
+    height: 100vh;
+}
+
+#mensagemErro {
+    color: rgb(200, 0, 0);
+    margin-bottom: 1rem;
+}
+
+#container-aside {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+
+    width: 40vw;
+    min-width: 500px;
+    height: 100vh;
+
+    top: 0;
+    right: 30%;
+
+    background-color: rgb(240, 240, 240);
+}
+
+#container-form {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    gap: .25rem;
+
+    width: 70%;
+    height: 30%;
+
+    margin-bottom: 3rem;
+}
+
+#container-form-login {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    gap: .25rem;
+
+    width: 40%;
+    height: 15%;
+
+    margin-bottom: 3rem;
+}
+
+#nomeBar-login {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+}
+
+#senha-login {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+}
+
+#nomeBarGrid { 
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+#nomeRespGrid {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+}
+
+#senhaGrid {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+}
+
+#emailGrid { 
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+
+#telefoneGrid { 
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+}
+
+#estadoGrid { 
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+#cidadeGrid { 
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+}
+
+#numCadeirasGrid { 
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
